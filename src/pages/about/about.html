@@ -1,11 +1,44 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      My Previous Restaurants
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+
+<ion-content class="bg-style" padding>
+    <ion-item>
+        <ion-checkbox slot="start" checked></ion-checkbox>
+        <ion-label>Checkbox</ion-label>
+      </ion-item>
+      <ion-item>
+          <ion-label>
+            Item
+          </ion-label>
+        </ion-item>
+        
+        <!-- Item as a Button -->
+        <ion-item (click)="buttonClick()">
+          <ion-label>
+            Button Item
+          </ion-label>
+        </ion-item>
+        
+        <!-- Item as an Anchor -->
+        <ion-item href="https://www.ionicframework.com">
+          <ion-label>
+            Anchor Item
+          </ion-label>
+        </ion-item>
+        
+        <ion-item color="secondary">
+          <ion-label>
+            Secondary Color Item
+          </ion-label>
+        </ion-item>
+        
+
+  <p>Add or Change Profile Picture</p>
 
 </ion-content>

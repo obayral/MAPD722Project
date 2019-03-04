@@ -41,6 +41,12 @@ $colors: (
   dark:       #222
 );
 
+/* Set variables for all modes */
+:root {
+  /* Set the background of the entire app */
+  --ion-background-color: #ff3700;
+}
+
 
 // App iOS Variables
 // --------------------------------------------------
