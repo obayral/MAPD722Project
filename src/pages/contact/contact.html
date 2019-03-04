@@ -1,17 +1,28 @@
 <ion-header>
   <ion-navbar color="primary">
-    <ion-title>Home</ion-title>
-    <ion-searchbar [(ngModel)]="searchTerm" (ionInput)="setFilteredItems()"></ion-searchbar>
+
   </ion-navbar>
 </ion-header>
 
 <ion-content class="input-type" padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    MAPD722 Project
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <h2 class="personalHeader">Personal Information</h2>
+  
+  <div class="profile">
+  
+  <img src="./assets/imgs/user.png" onclick="previewFile()" style="width:8%;height:20%;"><br><br>
+ 
+  
+ <form>
+	Username:<br>
+  <input type="text" name="username"><br><br>
+	Password:<br>
+  <input type="password" name="password"><br><br>
+    Email:<br>
+  <input type="email" name="email"><br><br>
+    Phone:<br>
+  <input type="phone" name="phone"><br>
+  <br><input class="submitButton" type="submit" value="Apply Changes">
+</form>
+	
+	</div>
 </ion-content>

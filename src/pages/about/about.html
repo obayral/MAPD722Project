@@ -1,48 +1,21 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      My Previous Restaurants
-    </ion-title>
+
   </ion-navbar>
 </ion-header>
+<ion-title>Login Page </ion-title>
 
 
 <ion-content class="input-type" padding>
-    <ion-item>
-        <ion-checkbox slot="start" checked></ion-checkbox>
-        <ion-label>Checkbox</ion-label>
-      </ion-item>
-      
-      <ion-item>
-          <ion-textarea class="input-type">
-            Item
-            Item
-            Item
-            LOLOLO
-          </ion-textarea>
-        </ion-item>
-        
-        <!-- Item as a Button -->
-        <ion-item (click)="buttonClick()">
-          <ion-label>
-            Button Item
-          </ion-label>
-        </ion-item>
-        
-        <!-- Item as an Anchor -->
-        <ion-item href="https://www.ionicframework.com">
-          <ion-label>
-            Anchor Item
-          </ion-label>
-        </ion-item>
-        
-        <ion-item color="secondary">
-          <ion-label>
-            Secondary Color Item
-          </ion-label>
-        </ion-item>
-        
 
-  <p>Add or Change Profile Picture</p>
+
+  <img src="./assets/imgs/grocery.png" onclick="previewFile()" style="width:15%;height:30%;"><br><br><br><br><br><br>
+<form class="loginForm">
+	Username:<br>
+  <input type="text" name="username"><br><br>
+	Password:<br>
+  <input type="password" name="password"><br>
+  <br><input class="loginButton" type="submit" value="Login">
+</form>
 
 </ion-content>
